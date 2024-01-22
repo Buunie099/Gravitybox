@@ -4,7 +4,9 @@ body {
 
 }
 h1 {
-  color: white;
+  color: black;
+  margin-top: 300px;
+  border: 1px solid black;
   text-align: center;
 }
           

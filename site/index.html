@@ -6,8 +6,18 @@
   <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
+    <h1 id="header">
       Gravity Box
     </h1>
-  </body>
+    <script>
+      function move(g) {
+        var mX;
+        var mY;
+        while(true) {
+          document.getElementById("header").textContent = getPointerInfo().getLocation()
+        }
+      }
+    </script>
+
+</body>
 </html>
